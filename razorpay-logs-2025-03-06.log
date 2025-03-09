@@ -1,0 +1,272 @@
+2025-03-06T02:16:18+00:00 INFO Called process_payment with params order_id 9668
+2025-03-06T02:16:18+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9668
+2025-03-06T02:16:18+00:00 INFO getRazorpayPaymentParams 9668
+2025-03-06T02:16:18+00:00 INFO createOrGetRazorpayOrderId 9668 and is1ccCheckout is set to no
+2025-03-06T02:16:18+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9668 and is_magic_checkout_order is set to no
+2025-03-06T02:16:18+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9668
+2025-03-06T02:16:18+00:00 INFO Called createRazorpayOrderId with params orderId 9668 and sessionKey razorpay_order_id9668
+2025-03-06T02:16:18+00:00 INFO Called getOrderCreationData with params orderId 9668
+2025-03-06T02:16:18+00:00 INFO Called getOrderCreationData with params orderId 9668 and is1ccOrder is set to no
+2025-03-06T02:16:18+00:00 INFO For order 9668
+2025-03-06T02:16:18+00:00 INFO {"receipt":"9668","amount":312500,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9668"}}
+2025-03-06T02:16:19+00:00 INFO For order session key razorpay_order_id9668
+2025-03-06T02:16:46+00:00 INFO ORDER NUMBER 9668:webhook conflict due to early execution for razorpay order: order_Q3KvgFYthu9mRe 
+2025-03-06T02:16:57+00:00 INFO Called check_razorpay_response: wc_order_y9hMJJHJhTVZJ
+2025-03-06T02:16:57+00:00 INFO HPOS is disabled and order status: pending
+2025-03-06T02:16:57+00:00 INFO Get order id in check_razorpay_response: orderId 9668
+2025-03-06T02:16:57+00:00 INFO verifySignature orderId: 9668
+2025-03-06T02:16:57+00:00 INFO verifySignature attr
+2025-03-06T02:16:57+00:00 INFO {"razorpay_payment_id":"pay_Q3Kvmk6MUdxMop","razorpay_signature":"192b6b4c237da288b258d44fc77b5837f4ef29acb3ff7c8f7479f19934c605fa","razorpay_order_id":"order_Q3KvgFYthu9mRe"}
+2025-03-06T02:16:57+00:00 INFO updateOrder orderId: 8578 , razorpayPaymentId: pay_Q3Kvmk6MUdxMop , success: 1
+2025-03-06T02:16:57+00:00 INFO Order details check initiated step 1 for the orderId: 9668
+2025-03-06T02:17:01+00:00 INFO Woocommerce orderId: 8578 processed through callback
+2025-03-06T03:25:58+00:00 INFO ORDER NUMBER 9668:webhook conflict over for razorpay order: order_Q3KvgFYthu9mRe
+2025-03-06T03:25:58+00:00 INFO Woocommerce orderId: 9668 webhook process intitiated for event: payment.authorized
+2025-03-06T03:25:58+00:00 INFO Woocommerce orderId: 9668 webhook process intitiated for payment authorized event
+2025-03-06T03:25:58+00:00 INFO Woocommerce orderId: 9668 order status: processing
+2025-03-06T03:25:58+00:00 INFO Woocommerce orderId: 9668 webhook process exited with need payment status :
+2025-03-06T08:07:25+00:00 INFO Called process_payment with params order_id 9669
+2025-03-06T08:07:25+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9669
+2025-03-06T08:07:25+00:00 INFO getRazorpayPaymentParams 9669
+2025-03-06T08:07:25+00:00 INFO createOrGetRazorpayOrderId 9669 and is1ccCheckout is set to no
+2025-03-06T08:07:25+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9669 and is_magic_checkout_order is set to no
+2025-03-06T08:07:25+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9669
+2025-03-06T08:07:25+00:00 INFO Called createRazorpayOrderId with params orderId 9669 and sessionKey razorpay_order_id9669
+2025-03-06T08:07:25+00:00 INFO Called getOrderCreationData with params orderId 9669
+2025-03-06T08:07:25+00:00 INFO Called getOrderCreationData with params orderId 9669 and is1ccOrder is set to no
+2025-03-06T08:07:25+00:00 INFO For order 9669
+2025-03-06T08:07:25+00:00 INFO {"receipt":"9669","amount":88000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9669"}}
+2025-03-06T08:07:28+00:00 INFO Updating razorpay webhook
+2025-03-06T08:07:28+00:00 ERROR {"message":"validation error : url: cannot be blank."}
+2025-03-06T08:07:28+00:00 INFO For order session key razorpay_order_id9669
+2025-03-06T08:09:00+00:00 INFO ORDER NUMBER 9669:webhook conflict due to early execution for razorpay order: order_Q3QuZxSHT2tnJG 
+2025-03-06T08:09:12+00:00 INFO Called check_razorpay_response: wc_order_cli28ALbCBnVg
+2025-03-06T08:09:12+00:00 INFO HPOS is disabled and order status: pending
+2025-03-06T08:09:12+00:00 INFO Get order id in check_razorpay_response: orderId 9669
+2025-03-06T08:09:12+00:00 INFO verifySignature orderId: 9669
+2025-03-06T08:09:12+00:00 INFO verifySignature attr
+2025-03-06T08:09:12+00:00 INFO {"razorpay_payment_id":"pay_Q3QvlnByKXxaFp","razorpay_signature":"776bc0d5555f8c0de3d0e8f914f01cc813cf2c1134a62b123c998202cbad722b","razorpay_order_id":"order_Q3QuZxSHT2tnJG"}
+2025-03-06T08:09:12+00:00 INFO updateOrder orderId: 8579 , razorpayPaymentId: pay_Q3QvlnByKXxaFp , success: 1
+2025-03-06T08:09:12+00:00 INFO Order details check initiated step 1 for the orderId: 9669
+2025-03-06T08:09:17+00:00 INFO Woocommerce orderId: 8579 processed through callback
+2025-03-06T10:33:22+00:00 INFO ORDER NUMBER 9669:webhook conflict over for razorpay order: order_Q3QuZxSHT2tnJG
+2025-03-06T10:33:22+00:00 INFO Woocommerce orderId: 9669 webhook process intitiated for event: payment.authorized
+2025-03-06T10:33:22+00:00 INFO Woocommerce orderId: 9669 webhook process intitiated for payment authorized event
+2025-03-06T10:33:22+00:00 INFO Woocommerce orderId: 9669 order status: processing
+2025-03-06T10:33:22+00:00 INFO Woocommerce orderId: 9669 webhook process exited with need payment status :
+2025-03-06T12:11:43+00:00 INFO Called process_payment with params order_id 9670
+2025-03-06T12:11:43+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9670
+2025-03-06T12:11:43+00:00 INFO getRazorpayPaymentParams 9670
+2025-03-06T12:11:43+00:00 INFO createOrGetRazorpayOrderId 9670 and is1ccCheckout is set to no
+2025-03-06T12:11:43+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9670 and is_magic_checkout_order is set to no
+2025-03-06T12:11:43+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9670
+2025-03-06T12:11:43+00:00 INFO Called createRazorpayOrderId with params orderId 9670 and sessionKey razorpay_order_id9670
+2025-03-06T12:11:43+00:00 INFO Called getOrderCreationData with params orderId 9670
+2025-03-06T12:11:43+00:00 INFO Called getOrderCreationData with params orderId 9670 and is1ccOrder is set to no
+2025-03-06T12:11:43+00:00 INFO For order 9670
+2025-03-06T12:11:43+00:00 INFO {"receipt":"9670","amount":232500,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9670"}}
+2025-03-06T12:11:45+00:00 INFO For order session key razorpay_order_id9670
+2025-03-06T12:12:07+00:00 INFO ORDER NUMBER 9670:webhook conflict due to early execution for razorpay order: order_Q3V4eWO5W3mk2R 
+2025-03-06T12:12:21+00:00 INFO Called check_razorpay_response: wc_order_UGEz93RirSLNi
+2025-03-06T12:12:21+00:00 INFO HPOS is disabled and order status: pending
+2025-03-06T12:12:21+00:00 INFO Get order id in check_razorpay_response: orderId 9670
+2025-03-06T12:12:21+00:00 INFO verifySignature orderId: 9670
+2025-03-06T12:12:21+00:00 INFO verifySignature attr
+2025-03-06T12:12:21+00:00 INFO {"razorpay_payment_id":"pay_Q3V4sCYXfZA1RX","razorpay_signature":"3f3b9a79f8241b6f827fa583a20c56896c02992138e5c5307d3e938ce26f9ee0","razorpay_order_id":"order_Q3V4eWO5W3mk2R"}
+2025-03-06T12:12:21+00:00 INFO updateOrder orderId: 8580 , razorpayPaymentId: pay_Q3V4sCYXfZA1RX , success: 1
+2025-03-06T12:12:21+00:00 INFO Order details check initiated step 1 for the orderId: 9670
+2025-03-06T12:12:25+00:00 INFO Woocommerce orderId: 8580 processed through callback
+2025-03-06T12:14:07+00:00 INFO Called process_payment with params order_id 9671
+2025-03-06T12:14:07+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9671
+2025-03-06T12:14:08+00:00 INFO getRazorpayPaymentParams 9671
+2025-03-06T12:14:08+00:00 INFO createOrGetRazorpayOrderId 9671 and is1ccCheckout is set to no
+2025-03-06T12:14:08+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9671 and is_magic_checkout_order is set to no
+2025-03-06T12:14:08+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9671
+2025-03-06T12:14:08+00:00 INFO Called createRazorpayOrderId with params orderId 9671 and sessionKey razorpay_order_id9671
+2025-03-06T12:14:08+00:00 INFO Called getOrderCreationData with params orderId 9671
+2025-03-06T12:14:08+00:00 INFO Called getOrderCreationData with params orderId 9671 and is1ccOrder is set to no
+2025-03-06T12:14:08+00:00 INFO For order 9671
+2025-03-06T12:14:08+00:00 INFO {"receipt":"9671","amount":1177000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9671"}}
+2025-03-06T12:14:08+00:00 INFO For order session key razorpay_order_id9671
+2025-03-06T12:17:23+00:00 INFO ORDER NUMBER 9671:webhook conflict due to early execution for razorpay order: order_Q3V7AZxUGwxzt2 
+2025-03-06T12:17:34+00:00 INFO Called check_razorpay_response: wc_order_UFbArCQavsTKs
+2025-03-06T12:17:34+00:00 INFO HPOS is disabled and order status: pending
+2025-03-06T12:17:34+00:00 INFO Get order id in check_razorpay_response: orderId 9671
+2025-03-06T12:17:34+00:00 INFO verifySignature orderId: 9671
+2025-03-06T12:17:34+00:00 INFO verifySignature attr
+2025-03-06T12:17:34+00:00 INFO {"razorpay_payment_id":"pay_Q3VA3edlqp4nBb","razorpay_signature":"d2523a1c2a3ea7f31b86db7fd0b75104cc03181e850b088fb151805c1787e02e","razorpay_order_id":"order_Q3V7AZxUGwxzt2"}
+2025-03-06T12:17:34+00:00 INFO updateOrder orderId: 8581 , razorpayPaymentId: pay_Q3VA3edlqp4nBb , success: 1
+2025-03-06T12:17:34+00:00 INFO Order details check initiated step 1 for the orderId: 9671
+2025-03-06T12:17:39+00:00 INFO Woocommerce orderId: 8581 processed through callback
+2025-03-06T12:32:54+00:00 INFO Called process_payment with params order_id 9672
+2025-03-06T12:32:54+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9672
+2025-03-06T12:32:54+00:00 INFO getRazorpayPaymentParams 9672
+2025-03-06T12:32:54+00:00 INFO createOrGetRazorpayOrderId 9672 and is1ccCheckout is set to no
+2025-03-06T12:32:54+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9672 and is_magic_checkout_order is set to no
+2025-03-06T12:32:54+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9672
+2025-03-06T12:32:54+00:00 INFO Called createRazorpayOrderId with params orderId 9672 and sessionKey razorpay_order_id9672
+2025-03-06T12:32:54+00:00 INFO Called getOrderCreationData with params orderId 9672
+2025-03-06T12:32:54+00:00 INFO Called getOrderCreationData with params orderId 9672 and is1ccOrder is set to no
+2025-03-06T12:32:54+00:00 INFO For order 9672
+2025-03-06T12:32:54+00:00 INFO {"receipt":"9672","amount":145000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9672"}}
+2025-03-06T12:32:55+00:00 INFO For order session key razorpay_order_id9672
+2025-03-06T12:33:19+00:00 INFO ORDER NUMBER 9672:webhook conflict due to early execution for razorpay order: order_Q3VR0gnAetC36k 
+2025-03-06T12:33:32+00:00 INFO Called check_razorpay_response: wc_order_zvqlMUeEcPDY9
+2025-03-06T12:33:32+00:00 INFO HPOS is disabled and order status: pending
+2025-03-06T12:33:32+00:00 INFO Get order id in check_razorpay_response: orderId 9672
+2025-03-06T12:33:32+00:00 INFO verifySignature orderId: 9672
+2025-03-06T12:33:32+00:00 INFO verifySignature attr
+2025-03-06T12:33:32+00:00 INFO {"razorpay_payment_id":"pay_Q3VRGXyGMcaO8H","razorpay_signature":"cfaa8a9b5ea8b00a76e46f58af7bc48ec4d624af8cfc99dc3ddc0a21af19b0fd","razorpay_order_id":"order_Q3VR0gnAetC36k"}
+2025-03-06T12:33:32+00:00 INFO updateOrder orderId: 8582 , razorpayPaymentId: pay_Q3VRGXyGMcaO8H , success: 1
+2025-03-06T12:33:32+00:00 INFO Order details check initiated step 1 for the orderId: 9672
+2025-03-06T12:33:36+00:00 INFO Woocommerce orderId: 8582 processed through callback
+2025-03-06T14:22:09+00:00 INFO Called process_payment with params order_id 9673
+2025-03-06T14:22:09+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9673
+2025-03-06T14:22:10+00:00 INFO getRazorpayPaymentParams 9673
+2025-03-06T14:22:10+00:00 INFO createOrGetRazorpayOrderId 9673 and is1ccCheckout is set to no
+2025-03-06T14:22:10+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9673 and is_magic_checkout_order is set to no
+2025-03-06T14:22:10+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9673
+2025-03-06T14:22:10+00:00 INFO Called createRazorpayOrderId with params orderId 9673 and sessionKey razorpay_order_id9673
+2025-03-06T14:22:10+00:00 INFO Called getOrderCreationData with params orderId 9673
+2025-03-06T14:22:10+00:00 INFO Called getOrderCreationData with params orderId 9673 and is1ccOrder is set to no
+2025-03-06T14:22:10+00:00 INFO For order 9673
+2025-03-06T14:22:10+00:00 INFO {"receipt":"9673","amount":161000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9673"}}
+2025-03-06T14:22:11+00:00 INFO For order session key razorpay_order_id9673
+2025-03-06T14:29:33+00:00 INFO Called process_payment with params order_id 9674
+2025-03-06T14:29:33+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9674
+2025-03-06T14:29:33+00:00 INFO getRazorpayPaymentParams 9674
+2025-03-06T14:29:33+00:00 INFO createOrGetRazorpayOrderId 9674 and is1ccCheckout is set to no
+2025-03-06T14:29:33+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9674 and is_magic_checkout_order is set to no
+2025-03-06T14:29:33+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9674
+2025-03-06T14:29:33+00:00 INFO Called createRazorpayOrderId with params orderId 9674 and sessionKey razorpay_order_id9674
+2025-03-06T14:29:33+00:00 INFO Called getOrderCreationData with params orderId 9674
+2025-03-06T14:29:33+00:00 INFO Called getOrderCreationData with params orderId 9674 and is1ccOrder is set to no
+2025-03-06T14:29:33+00:00 INFO For order 9674
+2025-03-06T14:29:33+00:00 INFO {"receipt":"9674","amount":31000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9674"}}
+2025-03-06T14:29:33+00:00 INFO For order session key razorpay_order_id9674
+2025-03-06T14:32:42+00:00 INFO ORDER NUMBER 9673:webhook conflict due to early execution for razorpay order: order_Q3XIQd9G929oWb 
+2025-03-06T14:54:22+00:00 INFO ORDER NUMBER 9670:webhook conflict over for razorpay order: order_Q3V4eWO5W3mk2R
+2025-03-06T14:54:22+00:00 INFO Woocommerce orderId: 9670 webhook process intitiated for event: payment.authorized
+2025-03-06T14:54:22+00:00 INFO Woocommerce orderId: 9670 webhook process intitiated for payment authorized event
+2025-03-06T14:54:22+00:00 INFO Woocommerce orderId: 9670 order status: processing
+2025-03-06T14:54:22+00:00 INFO Woocommerce orderId: 9670 webhook process exited with need payment status :
+2025-03-06T15:01:05+00:00 INFO ORDER NUMBER 9671:webhook conflict over for razorpay order: order_Q3V7AZxUGwxzt2
+2025-03-06T15:01:05+00:00 INFO Woocommerce orderId: 9671 webhook process intitiated for event: payment.authorized
+2025-03-06T15:01:05+00:00 INFO Woocommerce orderId: 9671 webhook process intitiated for payment authorized event
+2025-03-06T15:01:05+00:00 INFO Woocommerce orderId: 9671 order status: processing
+2025-03-06T15:01:05+00:00 INFO Woocommerce orderId: 9671 webhook process exited with need payment status :
+2025-03-06T15:14:39+00:00 INFO ORDER NUMBER 9672:webhook conflict over for razorpay order: order_Q3VR0gnAetC36k
+2025-03-06T15:14:39+00:00 INFO Woocommerce orderId: 9672 webhook process intitiated for event: payment.authorized
+2025-03-06T15:14:39+00:00 INFO Woocommerce orderId: 9672 webhook process intitiated for payment authorized event
+2025-03-06T15:14:39+00:00 INFO Woocommerce orderId: 9672 order status: processing
+2025-03-06T15:14:39+00:00 INFO Woocommerce orderId: 9672 webhook process exited with need payment status :
+2025-03-06T17:31:32+00:00 INFO ORDER NUMBER 9673:webhook conflict over for razorpay order: order_Q3XIQd9G929oWb
+2025-03-06T17:31:32+00:00 INFO Woocommerce orderId: 9673 webhook process intitiated for event: payment.authorized
+2025-03-06T17:31:32+00:00 INFO Woocommerce orderId: 9673 webhook process intitiated for payment authorized event
+2025-03-06T17:31:32+00:00 INFO Woocommerce orderId: 9673 order status: cancelled
+2025-03-06T17:31:33+00:00 INFO updateOrder orderId: 8583 , razorpayPaymentId: pay_Q3XSLvQLbWTutW , success: 1
+2025-03-06T17:31:33+00:00 INFO Order details check initiated step 1 for the orderId: 9673
+2025-03-06T17:31:38+00:00 INFO Woocommerce orderId: 8583 processed through webhook
+2025-03-06T17:31:38+00:00 INFO Woocommerce orderId: 9673 webhook process finished the update order function
+2025-03-06T17:31:38+00:00 INFO Woocommerce orderId: 9673 webhook process finished the updateOrder function
+2025-03-06T17:54:50+00:00 INFO Called process_payment with params order_id 9675
+2025-03-06T17:54:50+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9675
+2025-03-06T17:54:51+00:00 INFO getRazorpayPaymentParams 9675
+2025-03-06T17:54:51+00:00 INFO createOrGetRazorpayOrderId 9675 and is1ccCheckout is set to no
+2025-03-06T17:54:51+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9675 and is_magic_checkout_order is set to no
+2025-03-06T17:54:51+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9675
+2025-03-06T17:54:51+00:00 INFO Called createRazorpayOrderId with params orderId 9675 and sessionKey razorpay_order_id9675
+2025-03-06T17:54:51+00:00 INFO Called getOrderCreationData with params orderId 9675
+2025-03-06T17:54:51+00:00 INFO Called getOrderCreationData with params orderId 9675 and is1ccOrder is set to no
+2025-03-06T17:54:51+00:00 INFO For order 9675
+2025-03-06T17:54:51+00:00 INFO {"receipt":"9675","amount":145000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9675"}}
+2025-03-06T17:54:52+00:00 INFO For order session key razorpay_order_id9675
+2025-03-06T17:55:57+00:00 INFO Called process_payment with params order_id 9675
+2025-03-06T17:55:57+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9675
+2025-03-06T17:55:57+00:00 INFO getRazorpayPaymentParams 9675
+2025-03-06T17:55:57+00:00 INFO createOrGetRazorpayOrderId 9675 and is1ccCheckout is set to no
+2025-03-06T17:55:57+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9675 and is_magic_checkout_order is set to no
+2025-03-06T17:55:57+00:00 INFO razorpayOrderId order_Q3av66AV75PaQg | sessionKey razorpay_order_id9675
+2025-03-06T17:55:57+00:00 INFO Called verifyOrderAmount with params orderId 9675 and rzporderId order_Q3av66AV75PaQg
+2025-03-06T17:55:57+00:00 INFO Called getOrderCreationData with params orderId 9675
+2025-03-06T17:55:57+00:00 INFO Called getOrderCreationData with params orderId 9675 and is1ccOrder is set to no
+2025-03-06T17:56:23+00:00 INFO ORDER NUMBER 9675:webhook conflict due to early execution for razorpay order: order_Q3av66AV75PaQg 
+2025-03-06T17:56:34+00:00 INFO Called check_razorpay_response: wc_order_HflnDchc0Y9Se
+2025-03-06T17:56:34+00:00 INFO HPOS is disabled and order status: pending
+2025-03-06T17:56:34+00:00 INFO Get order id in check_razorpay_response: orderId 9675
+2025-03-06T17:56:34+00:00 INFO verifySignature orderId: 9675
+2025-03-06T17:56:34+00:00 INFO verifySignature attr
+2025-03-06T17:56:34+00:00 INFO {"razorpay_payment_id":"pay_Q3awQVvQU4iPWx","razorpay_signature":"b6e2e2fefc76a89b1c7ee00c93e0b2d1f9605a5ab7d1f938f5ec5379fa0822ad","razorpay_order_id":"order_Q3av66AV75PaQg"}
+2025-03-06T17:56:34+00:00 INFO updateOrder orderId: 8585 , razorpayPaymentId: pay_Q3awQVvQU4iPWx , success: 1
+2025-03-06T17:56:34+00:00 INFO Order details check initiated step 1 for the orderId: 9675
+2025-03-06T17:56:39+00:00 INFO Woocommerce orderId: 8585 processed through callback
+2025-03-06T18:05:24+00:00 INFO Called process_payment with params order_id 9676
+2025-03-06T18:05:24+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9676
+2025-03-06T18:05:24+00:00 INFO getRazorpayPaymentParams 9676
+2025-03-06T18:05:24+00:00 INFO createOrGetRazorpayOrderId 9676 and is1ccCheckout is set to no
+2025-03-06T18:05:24+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9676 and is_magic_checkout_order is set to no
+2025-03-06T18:05:24+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9676
+2025-03-06T18:05:24+00:00 INFO Called createRazorpayOrderId with params orderId 9676 and sessionKey razorpay_order_id9676
+2025-03-06T18:05:24+00:00 INFO Called getOrderCreationData with params orderId 9676
+2025-03-06T18:05:24+00:00 INFO Called getOrderCreationData with params orderId 9676 and is1ccOrder is set to no
+2025-03-06T18:05:24+00:00 INFO For order 9676
+2025-03-06T18:05:24+00:00 INFO {"receipt":"9676","amount":43000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9676"}}
+2025-03-06T18:05:24+00:00 INFO For order session key razorpay_order_id9676
+2025-03-06T18:05:41+00:00 INFO ORDER NUMBER 9676:webhook conflict due to early execution for razorpay order: order_Q3b6EMAhCuGKNy 
+2025-03-06T20:10:59+00:00 INFO ORDER NUMBER 9673:webhook conflict over for razorpay order: order_Q3XIQd9G929oWb
+2025-03-06T20:10:59+00:00 INFO Woocommerce orderId: 9673 webhook process intitiated for event: payment.authorized
+2025-03-06T20:10:59+00:00 INFO Woocommerce orderId: 9673 webhook process intitiated for payment authorized event
+2025-03-06T20:10:59+00:00 INFO Woocommerce orderId: 9673 order status: processing
+2025-03-06T20:10:59+00:00 INFO Woocommerce orderId: 9673 webhook process exited with need payment status :
+2025-03-06T20:31:48+00:00 INFO ORDER NUMBER 9675:webhook conflict over for razorpay order: order_Q3av66AV75PaQg
+2025-03-06T20:31:48+00:00 INFO Woocommerce orderId: 9675 webhook process intitiated for event: payment.authorized
+2025-03-06T20:31:48+00:00 INFO Woocommerce orderId: 9675 webhook process intitiated for payment authorized event
+2025-03-06T20:31:48+00:00 INFO Woocommerce orderId: 9675 order status: processing
+2025-03-06T20:31:48+00:00 INFO Woocommerce orderId: 9675 webhook process exited with need payment status :
+2025-03-06T20:38:30+00:00 INFO ORDER NUMBER 9676:webhook conflict over for razorpay order: order_Q3b6EMAhCuGKNy
+2025-03-06T20:38:30+00:00 INFO Woocommerce orderId: 9676 webhook process intitiated for event: payment.authorized
+2025-03-06T20:38:30+00:00 INFO Woocommerce orderId: 9676 webhook process intitiated for payment authorized event
+2025-03-06T20:38:30+00:00 INFO Woocommerce orderId: 9676 order status: cancelled
+2025-03-06T20:38:31+00:00 INFO updateOrder orderId: 8586 , razorpayPaymentId: pay_Q3b6JmTWcKB0TB , success: 1
+2025-03-06T20:38:31+00:00 INFO Order details check initiated step 1 for the orderId: 9676
+2025-03-06T20:38:35+00:00 INFO Woocommerce orderId: 8586 processed through webhook
+2025-03-06T20:38:35+00:00 INFO Woocommerce orderId: 9676 webhook process finished the update order function
+2025-03-06T20:38:35+00:00 INFO Woocommerce orderId: 9676 webhook process finished the updateOrder function
+2025-03-06T21:38:29+00:00 INFO Called process_payment with params order_id 9677
+2025-03-06T21:38:29+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9677
+2025-03-06T21:38:29+00:00 INFO getRazorpayPaymentParams 9677
+2025-03-06T21:38:29+00:00 INFO createOrGetRazorpayOrderId 9677 and is1ccCheckout is set to no
+2025-03-06T21:38:30+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9677 and is_magic_checkout_order is set to no
+2025-03-06T21:38:30+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id9677
+2025-03-06T21:38:30+00:00 INFO Called createRazorpayOrderId with params orderId 9677 and sessionKey razorpay_order_id9677
+2025-03-06T21:38:30+00:00 INFO Called getOrderCreationData with params orderId 9677
+2025-03-06T21:38:30+00:00 INFO Called getOrderCreationData with params orderId 9677 and is1ccOrder is set to no
+2025-03-06T21:38:30+00:00 INFO For order 9677
+2025-03-06T21:38:30+00:00 INFO {"receipt":"9677","amount":299000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"9677"}}
+2025-03-06T21:38:32+00:00 INFO Updating razorpay webhook
+2025-03-06T21:38:32+00:00 ERROR {"message":"validation error : url: cannot be blank."}
+2025-03-06T21:38:32+00:00 INFO For order session key razorpay_order_id9677
+2025-03-06T21:39:37+00:00 INFO Called process_payment with params order_id 9677
+2025-03-06T21:39:37+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 9677
+2025-03-06T21:39:38+00:00 INFO getRazorpayPaymentParams 9677
+2025-03-06T21:39:38+00:00 INFO createOrGetRazorpayOrderId 9677 and is1ccCheckout is set to no
+2025-03-06T21:39:38+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 9677 and is_magic_checkout_order is set to no
+2025-03-06T21:39:38+00:00 INFO razorpayOrderId order_Q3ejKwZxCJNUnM | sessionKey razorpay_order_id9677
+2025-03-06T21:39:38+00:00 INFO Called verifyOrderAmount with params orderId 9677 and rzporderId order_Q3ejKwZxCJNUnM
+2025-03-06T21:39:38+00:00 INFO Called getOrderCreationData with params orderId 9677
+2025-03-06T21:39:38+00:00 INFO Called getOrderCreationData with params orderId 9677 and is1ccOrder is set to no
+2025-03-06T21:42:25+00:00 INFO ORDER NUMBER 9677:webhook conflict due to early execution for razorpay order: order_Q3ejKwZxCJNUnM 
+2025-03-06T21:42:32+00:00 INFO Called check_razorpay_response: wc_order_Eb2sdKoXLYWpz
+2025-03-06T21:42:32+00:00 INFO HPOS is disabled and order status: pending
+2025-03-06T21:42:32+00:00 INFO Get order id in check_razorpay_response: orderId 9677
+2025-03-06T21:42:32+00:00 INFO verifySignature orderId: 9677
+2025-03-06T21:42:32+00:00 INFO verifySignature attr
+2025-03-06T21:42:32+00:00 INFO {"razorpay_payment_id":"pay_Q3enG4YB3IX1QE","razorpay_signature":"5ccf231dd041ee169bf6f943be5eda8c3d87fb2bfc2650aad76d1288dcd42232","razorpay_order_id":"order_Q3ejKwZxCJNUnM"}
+2025-03-06T21:42:32+00:00 INFO updateOrder orderId: 8587 , razorpayPaymentId: pay_Q3enG4YB3IX1QE , success: 1
+2025-03-06T21:42:32+00:00 INFO Order details check initiated step 1 for the orderId: 9677
+2025-03-06T21:42:37+00:00 INFO Woocommerce orderId: 8587 processed through callback
+2025-03-06T22:56:24+00:00 INFO ORDER NUMBER 9677:webhook conflict over for razorpay order: order_Q3ejKwZxCJNUnM
+2025-03-06T22:56:24+00:00 INFO Woocommerce orderId: 9677 webhook process intitiated for event: payment.authorized
+2025-03-06T22:56:24+00:00 INFO Woocommerce orderId: 9677 webhook process intitiated for payment authorized event
+2025-03-06T22:56:24+00:00 INFO Woocommerce orderId: 9677 order status: processing
+2025-03-06T22:56:24+00:00 INFO Woocommerce orderId: 9677 webhook process exited with need payment status :
